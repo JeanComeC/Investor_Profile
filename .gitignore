@@ -1,0 +1,6 @@
+# GitIgnore
+*.log
+*.o
+output/
+score.md
+profil.md
