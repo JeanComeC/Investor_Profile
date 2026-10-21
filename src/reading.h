@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define SIZE_MAX_TEXT 128
 #define NUMBER_QUESTIONS 10
