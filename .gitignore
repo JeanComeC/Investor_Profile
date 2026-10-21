@@ -1,6 +1,8 @@
 # GitIgnore
 *.log
 *.o
+main.exe
+
 output/
 score.md
 profil.md
