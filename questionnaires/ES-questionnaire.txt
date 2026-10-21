@@ -1,0 +1,59 @@
+A. ¿Cuál es su objetivo principal?
+1- Preservar mi capital
+2- Obtener ingresos complementarios regulares
+3- Hacer crecer mi capital de forma moderada
+4- Maximizar el crecimiento, aunque ello implique asumir riesgos
+
+B. ¿Durante cuánto tiempo puede invertir este dinero sin tocarlo?
+1- Menos de 2 años
+2- De 2 a 5 años
+3- De 5 a 10 años
+4- Más de 10 años
+
+C. ¿Qué pérdida máxima podría soportar en un año?
+1- Ninguna
+2- Hasta un 5 %
+3- Hasta un 15 %
+4- Un 30 % o más
+
+D. Su cartera pierde un 20 % en 3 meses. ¿Qué hace?
+1- Lo vendo todo
+2- Vendo una parte
+3- No hago nada y espero
+4- Aprovecho para invertir más
+
+E. ¿Cuál es su experiencia en materia de inversión?
+1- Ninguna o casi ninguna
+2- Libretas de ahorro, fondos en euros de seguros de vida
+3- Acciones, ETF, fondos en unidades de cuenta
+4- Productos complejos: opciones, trackers apalancados, criptomonedas, etc.
+
+F. ¿Qué equilibrio entre rentabilidad y riesgo te conviene más?
+1- Alrededor del 2 % anual, sin posibilidad alguna de pérdida
+2- Alrededor del 4 % anual, con ligeras variaciones
+3- Alrededor del 7 % anual, con bajadas temporales notables
+4- El 10 % anual o más, con fuertes fluctuaciones
+
+G. ¿Qué porcentaje de tus ahorros totales representa esta cantidad?
+1- Más del 75 %
+2- Entre el 50 % y el 75 %
+3- Entre el 25 % y el 50 %
+4- Menos del 25 %
+
+H. ¿De qué ahorros de emergencia dispone (aparte de esta cantidad)?
+1- Ninguno
+2- Menos de 3 meses de gastos
+3- De 3 a 6 meses
+4- Más de 6 meses
+
+I. ¿Cómo describiría sus ingresos?
+1- Inestables, o jubilación inminente
+2- Bastante variables
+3- Estables
+4- Muy estables y con posibilidades de aumentar
+
+J. ¿Cómo afronta las fluctuaciones de sus inversiones?
+1- No puedo dormir: la más mínima caída me angustia
+2- Me incomoda, lo compruebo a menudo
+3- Sé que forma parte del juego
+4- No me molesta, solo miro a largo plazo
