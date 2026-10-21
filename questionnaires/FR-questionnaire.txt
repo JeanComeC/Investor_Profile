@@ -1,69 +1,59 @@
-1. Quel est votre objectif principal ?
+A. Quel est votre objectif principal ?
+1- Préserver mon capital
+2- Obtenir des revenus complémentaires réguliers
+3- Faire croître mon capital de façon modérée
+4- Maximiser la croissance, quitte à prendre des risques
 
-A. Préserver mon capital (1)
-B. Obtenir des revenus complémentaires réguliers (2)
-C. Faire croître mon capital de façon modérée (3)
-D. Maximiser la croissance, quitte à prendre des risques (4)
+B. Sur quelle durée pouvez-vous investir cet argent sans y toucher ?
+1- Moins de 2 ans
+2- 2 à 5 ans
+3- 5 à 10 ans
+4- Plus de 10 ans
 
-2. Sur quelle durée pouvez-vous investir cet argent sans y toucher ?
+C. Quelle perte maximale pourriez-vous supporter sur une année ?
+1- Aucune
+2- Jusqu’à 5 %
+3- Jusqu’à 15 %
+4- 30 % ou plus
 
-A. Moins de 2 ans (1)
-B. 2 à 5 ans (2)
-C. 5 à 10 ans (3)
-D. Plus de 10 ans (4)
+D. Votre portefeuille perd 20 % en 3 mois. Que faites-vous ?
+1- Je vends tout
+2- Je vends une partie
+3- Je ne fais rien et j’attends
+4- J’en profite pour investir davantage
 
-3. Quelle perte maximale pourriez-vous supporter sur une année ?
+E. Quelle est votre expérience de l’investissement ?
+1- Aucune ou presque
+2- Livrets, fonds euros d’assurance-vie
+3- Actions, ETF, fonds en unités de compte
+4- Produits complexes : options, trackers à effet de levier, crypto, etc.
 
-A. Aucune (1)
-B. Jusqu’à 5 % (2)
-C. Jusqu’à 15 % (3)
-D. 30 % ou plus (4)
+F. Quel arbitrage rendement/risque vous convient le mieux ?
+1- Environ 2 %/an, sans aucune perte possible
+2- Environ 4 %/an, avec de faibles variations
+3- Environ 7 %/an, avec des baisses temporaires notables
+4- 10 %/an ou plus, avec de fortes fluctuations
 
-4. Votre portefeuille perd 20 % en 3 mois. Que faites-vous ?
+G. Cette somme représente quelle part de votre épargne totale ?
+1- Plus de 75 %
+2- Entre 50 et 75 %
+3- Entre 25 et 50 %
+4- Moins de 25 %
 
-A. Je vends tout (1)
-B. Je vends une partie (2)
-C. Je ne fais rien et j’attends (3)
-D. J’en profite pour investir davantage (4)
+H. De quelle épargne de précaution disposez-vous (hors cette somme) ?
+1- Aucune
+2- Moins de 3 mois de dépenses
+3- 3 à 6 mois
+4- Plus de 6 mois
 
-5. Quelle est votre expérience de l’investissement ?
+I. Comment décririez-vous vos revenus ?
+1- Instables, ou retraite imminente
+2- Assez variables
+3- Stables
+4- Très stables et susceptibles d’augmenter
 
-A. Aucune ou presque (1)
-B. Livrets, fonds euros d’assurance-vie (2)
-C. Actions, ETF, fonds en unités de compte (3)
-D. Produits complexes : options, trackers à effet de levier, crypto, etc. (4)
-
-6. Quel arbitrage rendement/risque vous convient le mieux ?
-
-A. Environ 2 %/an, sans aucune perte possible (1)
-B. Environ 4 %/an, avec de faibles variations (2)
-C. Environ 7 %/an, avec des baisses temporaires notables (3)
-D. 10 %/an ou plus, avec de fortes fluctuations (4)
-
-7. Cette somme représente quelle part de votre épargne totale ?
-
-A. Plus de 75 % (1)
-B. Entre 50 et 75 % (2)
-C. Entre 25 et 50 % (3)
-D. Moins de 25 % (4)
-
-8. De quelle épargne de précaution disposez-vous (hors cette somme) ?
-
-A. Aucune (1)
-B. Moins de 3 mois de dépenses (2)
-C. 3 à 6 mois (3)
-D. Plus de 6 mois (4)
-
-9. Comment décririez-vous vos revenus ?
-
-A. Instables, ou retraite imminente (1)
-B. Assez variables (2)
-C. Stables (3)
-D. Très stables et susceptibles d’augmenter (4)
-
-10. Comment vivez-vous les fluctuations de vos placements ?
-
-A. Je ne dors plus : la moindre baisse m’angoisse (1)
-B. Ça me met mal à l’aise, je vérifie souvent (2)
-C. Je sais que ça fait partie du jeu (3)
-D. Ça ne me dérange pas, je ne regarde que le long terme (4)
+J. Comment vivez-vous les fluctuations de vos placements ?
+1- Je ne dors plus : la moindre baisse m’angoisse
+2- Ça me met mal à l’aise, je vérifie souvent
+3- Je sais que ça fait partie du jeu
+4- Ça ne me dérange pas, je ne regarde que le long terme
