@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
 #include "reading.h"
@@ -13,6 +12,11 @@ enum Language choice_language();
 int main(void){
     //printf("↩\n");
     enum Language language_user=choice_language();
+    struct TabQuestion tab_question=init_tab();
+    reading_filling(language_user,&tab_question);
+    //printf("%s\n",tab_question.questions[6].answers[0]);
+    //
+    destroy_tab(&tab_question);
     return 0;
 }
 
