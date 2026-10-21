@@ -34,17 +34,17 @@ void reading_filling(enum Language language_user, struct TabQuestion* tab){
     const char* path_questionnaire;
     switch(language_user){
     case EN:
-        path_questionnaire="EN-questionnaire.txt";
+        path_questionnaire="questionnaires/EN-questionnaire.txt";
         break;
     case FR:
-        path_questionnaire="FR-questionnaire.txt";
+        path_questionnaire="questionnaires/FR-questionnaire.txt";
         break;
     case ES:
-        path_questionnaire="ES-questionnaire.txt";
+        path_questionnaire="questionnaires/ES-questionnaire.txt";
         break;
     default:
         //until the other languages have been coded
-        path_questionnaire="EN-questionnaire.txt";
+        path_questionnaire="questionnaires/EN-questionnaire.txt";
         break;
     }
     // ===
