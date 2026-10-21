@@ -3,14 +3,16 @@
 //#include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
-//#include "reading.h"
+#include "reading.h"
 
 int user_input(void *result, const char *format, size_t size_max);
+enum Language choice_language();
 
 // ===
 
 int main(void){
-    //
+    //printf("↩\n");
+    enum Language language_user=choice_language();
     return 0;
 }
 
@@ -53,3 +55,14 @@ int user_input(void *result, const char *format, size_t size_max){//size_max is 
     return 0;
 }
 
+enum Language choice_language(){
+    enum Language choice_user=UNKNOWN;
+    printf("Choose your language :\n");
+    printf("1- EN\n2- FR\n3- ES\n");
+    //printf("4- DE\n5- IT\n6- RU\n");
+    int cond;
+    do{
+        cond=user_input(&choice_user,"%d",1);
+    }while(cond!=0);    
+    return choice_user;
+}

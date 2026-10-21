@@ -8,6 +8,18 @@
 #define SIZE_MAX_TEXT 128
 #define NUMBER_QUESTIONS 10
 
+enum Language{
+    UNKNOWN,
+    EN,
+    FR,
+    ES,
+    DE,
+    IT,
+    RU,
+};
+
+// ===
+
 struct Question{
     char id;
     char question[SIZE_MAX_TEXT];
@@ -20,8 +32,12 @@ struct TabQuestion{
     size_t capacity;
 };
 
+// ===
+
 struct TabQuestion init_tab();
 void add_tab(struct TabQuestion* tab, struct Question new_question);
 void destroy_tab(struct TabQuestion* tab);
+
+
 
 #endif
