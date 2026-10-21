@@ -39,6 +39,6 @@ struct TabQuestion init_tab();
 void add_tab(struct TabQuestion* tab, struct Question new_question);
 void destroy_tab(struct TabQuestion* tab);
 
-
+void reading_filling(enum Language language_user, struct TabQuestion* tab);
 
 #endif
