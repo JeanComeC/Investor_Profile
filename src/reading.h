@@ -23,7 +23,7 @@ enum Language{
 struct Question{
     char id;
     char question[SIZE_MAX_TEXT];
-    char answers[SIZE_MAX_TEXT][4];
+    char answers[4][SIZE_MAX_TEXT];
 };
 
 struct TabQuestion{
