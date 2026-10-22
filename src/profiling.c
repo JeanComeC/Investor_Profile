@@ -31,5 +31,16 @@ enum Profile gross_profile_profiling(int* tab_user_answer){
 
 enum Profile prudence_rule(enum Profile gross_profile, int answer2, int answer3, int answer4){
     enum Profile profile_234=HUGE_CHEATER;
+    size_t score_234=answer2+answer3+answer4;
+    if(score_234>3 && score_234<5)profile_234=CAUTIOUS;
+    if(score_234>6 && score_234<7)profile_234=BALANCED;
+    if(score_234>8 && score_234<10)profile_234=DYNAMIC;
+    if(score_234>11 && score_234<12)profile_234=AGGRESSIVE;
+    
+    if(profile_234<=gross_profile){
+        return profile_234;
+    }else{
+        return gross_profile;
+    }
 }
 
