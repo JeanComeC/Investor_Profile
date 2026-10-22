@@ -23,13 +23,13 @@ int main(void){
         for(int j=0;j<4;j++){
             printf("%s\n",tab_question.questions[i].answers[j]);
         }
-        printf("112- back ↩\n");
+        printf("0- back ↩\n");
         int shutdown_condition;
         do{
-            shutdown_condition=user_input(&tab_user_answer[i],"%d",3);
+            shutdown_condition=user_input(&tab_user_answer[i],"%d",1);
         }while(shutdown_condition!=0);
         //For a look back :
-        if(tab_user_answer[i]==112){
+        if(tab_user_answer[i]==0){
             if(i<1){
                 i--;
             }else{
@@ -39,7 +39,7 @@ int main(void){
     }
     //
     score_writing(tab_user_answer);
-    
+
     //
     free(tab_user_answer);
     destroy_tab(&tab_question);
