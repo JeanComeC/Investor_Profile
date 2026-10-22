@@ -20,5 +20,6 @@ enum Profile{
 int score_writing(int* tab_user_answer);
 enum Profile gross_profile_profiling(int* tab_user_answer);
 enum Profile prudence_rule(enum Profile gross_profile, int answer2, int answer3, int answer4);
+int profile_writing(enum Language language_user, enum Profile user_profile);
 
 #endif
