@@ -14,7 +14,7 @@ int main(void){
     enum Language language_user=choice_language();
     struct TabQuestion tab_question=init_tab();
     reading_filling(language_user,&tab_question);
-    //printf("%s\n",tab_question.questions[6].answers[0]);
+    printf("%s\n",tab_question.questions[4].answers[3]);
     //
     destroy_tab(&tab_question);
     return 0;
@@ -60,7 +60,7 @@ int user_input(void *result, const char *format, size_t size_max){//size_max is 
 }
 
 enum Language choice_language(){
-    enum Language choice_user=UNKNOWN;
+    enum Language choice_user=LANG_UNKNOWN;
     printf("Choose your language :\n");
     printf("1- EN\n2- FR\n3- ES\n");
     //printf("4- DE\n5- IT\n6- RU\n");
