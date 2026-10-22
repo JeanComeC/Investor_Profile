@@ -16,3 +16,20 @@ int score_writing(int* tab_user_answer){
     return 0;
 }
 
+enum Profile gross_profile_profiling(int* tab_user_answer){
+    size_t score=0;
+    for(size_t i=0;i<NUMBER_QUESTIONS;i++){
+        score+=tab_user_answer[i];
+    }
+    enum Profile gross_profile=HUGE_CHEATER;
+    if(score>10 && score<17)gross_profile=CAUTIOUS;
+    if(score>18 && score<25)gross_profile=BALANCED;
+    if(score>26 && score<33)gross_profile=DYNAMIC;
+    if(score>34 && score<40)gross_profile=AGGRESSIVE;
+    return gross_profile;
+}
+
+enum Profile prudence_rule(enum Profile gross_profile, int answer2, int answer3, int answer4){
+    //
+}
+
