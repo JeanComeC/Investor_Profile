@@ -40,7 +40,9 @@ int main(void){
     //
     score_writing(tab_user_answer);
     enum Profile user_profile=prudence_rule(gross_profile_profiling(tab_user_answer),tab_user_answer[2-1],tab_user_answer[3-1],tab_user_answer[4-1]);
-
+    profile_writing(language_user,user_profile);
+    //
+    
     //
     free(tab_user_answer);
     destroy_tab(&tab_question);
