@@ -27,9 +27,18 @@ int main(void){
         do{
             shutdown_condition=user_input(&tab_user_answer[i],"%d",3);
         }while(shutdown_condition!=0);
+        //For a look back :
+        if(tab_user_answer[i]==112){
+            if(i<1){
+                i--;
+            }else{
+                i-=2;
+            }
+        }
     }
 
     //
+    free(tab_user_answer);
     destroy_tab(&tab_question);
     return 0;
 }
