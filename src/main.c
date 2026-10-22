@@ -10,11 +10,25 @@ enum Language choice_language();
 // ===
 
 int main(void){
-    //printf("↩\n");
     enum Language language_user=choice_language();
     struct TabQuestion tab_question=init_tab();
     reading_filling(language_user,&tab_question);
-    printf("%s\n",tab_question.questions[4].answers[3]);
+    //
+    int* tab_user_answer=malloc(NUMBER_QUESTIONS*sizeof(int));
+    if(!tab_user_answer){perror("Error malloc().");exit(1);}
+
+    for(int i=0;i<NUMBER_QUESTIONS;i++){
+        printf("%s\n",tab_question.questions[i].question);
+        for(int j=0;j<4;j++){
+            printf("%s\n",tab_question.questions[i].answers[j]);
+        }
+        printf("112- back ↩\n");
+        int shutdown_condition;
+        do{
+            shutdown_condition=user_input(&tab_user_answer[i],"%d",3);
+        }while(shutdown_condition!=0);
+    }
+
     //
     destroy_tab(&tab_question);
     return 0;
