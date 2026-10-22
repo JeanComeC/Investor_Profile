@@ -33,13 +33,13 @@ void destroy_tab(struct TabQuestion* tab){
 void reading_filling(enum Language language_user, struct TabQuestion* tab){
     const char* path_questionnaire;
     switch(language_user){
-    case EN:
+    case LANG_EN:
         path_questionnaire="questionnaires/EN-questionnaire.txt";
         break;
-    case FR:
+    case LANG_FR:
         path_questionnaire="questionnaires/FR-questionnaire.txt";
         break;
-    case ES:
+    case LANG_ES:
         path_questionnaire="questionnaires/ES-questionnaire.txt";
         break;
     default:

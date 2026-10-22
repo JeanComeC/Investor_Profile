@@ -10,13 +10,13 @@
 #define NUMBER_QUESTIONS 10
 
 enum Language{
-    UNKNOWN,
-    EN,
-    FR,
-    ES,
-    DE,
-    IT,
-    RU,
+    LANG_UNKNOWN,
+    LANG_EN,
+    LANG_FR,
+    LANG_ES,
+    LANG_DE,
+    LANG_IT,
+    LANG_RU,
 };
 
 // ===

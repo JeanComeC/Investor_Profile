@@ -10,12 +10,36 @@ enum Language choice_language();
 // ===
 
 int main(void){
-    //printf("↩\n");
     enum Language language_user=choice_language();
     struct TabQuestion tab_question=init_tab();
     reading_filling(language_user,&tab_question);
-    //printf("%s\n",tab_question.questions[6].answers[0]);
     //
+    int* tab_user_answer=malloc(NUMBER_QUESTIONS*sizeof(int));
+    if(!tab_user_answer){perror("Error malloc().");exit(1);}
+
+    for(int i=0;i<NUMBER_QUESTIONS;i++){
+        printf("%s\n",tab_question.questions[i].question);
+        for(int j=0;j<4;j++){
+            printf("%s\n",tab_question.questions[i].answers[j]);
+        }
+        printf("112- back ↩\n");
+        int shutdown_condition;
+        do{
+            shutdown_condition=user_input(&tab_user_answer[i],"%d",3);
+        }while(shutdown_condition!=0);
+        //For a look back :
+        if(tab_user_answer[i]==112){
+            if(i<1){
+                i--;
+            }else{
+                i-=2;
+            }
+        }
+    }
+    //
+    
+    //
+    free(tab_user_answer);
     destroy_tab(&tab_question);
     return 0;
 }
@@ -60,7 +84,7 @@ int user_input(void *result, const char *format, size_t size_max){//size_max is 
 }
 
 enum Language choice_language(){
-    enum Language choice_user=UNKNOWN;
+    enum Language choice_user=LANG_UNKNOWN;
     printf("Choose your language :\n");
     printf("1- EN\n2- FR\n3- ES\n");
     //printf("4- DE\n5- IT\n6- RU\n");
