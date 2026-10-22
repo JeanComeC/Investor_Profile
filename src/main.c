@@ -38,6 +38,7 @@ int main(void){
         }
     }
     //
+    score_writing(tab_user_answer);
     
     //
     free(tab_user_answer);
