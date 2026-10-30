@@ -4,6 +4,7 @@
 #include <string.h>
 #include "reading.h"
 #include "profiling.h"
+#include "advice.h"
 
 int user_input(void *result, const char *format, size_t size_max);
 enum Language choice_language();
